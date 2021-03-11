@@ -1,0 +1,83 @@
+<!-- 2021-03-13 Relax and Reset -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sit back and unwind, as we drift along on a raid train through the ebb and flow of ambient music.">
+  <meta name="keywords" content="Twitch, ambient, electronic, music, mediation, streaming">
+  <meta property="og:title" content="Relax & Reset ~ Ambient Music Event on Twitch.tv">
+  <meta property="og:description" content="Sit back and unwind, as we drift along on a raid train through the ebb and flow of ambient music.">
+  <meta property="og:image" content="img/cover.png">
+  <meta property="og:url" content="http://bit.ly/RNRambient">
+  <title>Relax & Reset ~ Ambient Music Event on Twitch.tv</title>
+</head>
+
+<script src='../luxon.js'></script>
+
+<div id='local'></div>
+<div id='rezoned'></div>
+
+<script>
+	
+	var DateTime = luxon.DateTime;
+	
+	// get browser time
+	var local = DateTime.local();
+
+	// convert browser time to PST
+	var rezoned = local.setZone('America/Los_Angeles');
+
+	// twitch domain
+	var twitchURL = 'https://www.twitch.tv/';
+	
+	// FB Event as Default
+	var URL = 'https://www.eventbrite.com/e/relax-reset-tickets-143505690383';
+	
+	// Event Schedule
+	var schedule =  [
+		
+		// 0 - Andrew Fetch, 9-11
+		['andrewfetch', DateTime.fromISO('2021-03-13T09:00:00.000-08:00')],
+	
+		// 1 - DJ Montalbano, 11-13
+		['djmontalbano', DateTime.fromISO('2021-03-013T11:00:00.000-08:00')],
+	
+		// 2 - Sherpa Slim, 13-15
+		['sherpaslim', DateTime.fromISO('2021-03-13T13:00:00.000-08:00')],
+		
+		// 3 - DJ Maggie, 15-17
+		['djmaggiemoon', DateTime.fromISO('2021-03-13T15:00:00.000-08:00')],
+
+		// 4 - Mamadre, 17-19
+		['mamadre69', DateTime.fromISO('2021-03-13T17:00:00.000-08:00')],
+		
+		// 5 - Osiris Indriya & Chiyona Indriya, 19-23
+		['osirisindriya', DateTime.fromISO('2021-03-13T19:00:00.000-08:00')],
+		
+		// 6 - DJ Leslie Ellen, 23-1
+		['virtualnightclub', DateTime.fromISO('2021-03-13T23:00:00.000-08:00')],
+
+		// End, 1
+		['end', DateTime.fromISO('2021-03-14T01:00:00.000-08:00')]
+
+	]
+
+	//console.log( schedule );
+	//console.log( schedule.length );
+
+	function scheduleURL() {
+		//console.log('started');
+		for (var i = 0; i < (schedule.length - 1); i++) {
+			//console.log( schedule[i][0] + ' : ' + schedule[i][1] );
+			if ( rezoned >= schedule[i][1] && rezoned < schedule[i + 1][1] ) {
+				URL = twitchURL.concat( schedule[i][0] );
+				break;
+			}
+		}	
+	}
+
+	scheduleURL();
+	
+	// comment out for testing
+	window.location.href = URL;
+
+</script>
