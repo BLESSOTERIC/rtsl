@@ -9,9 +9,9 @@ This page and the package it is contained within is created to allow the use of 
 
 ## How to set up RTSL?
 
-1. Create a directory on a website you have FTP access to.
+1. Create a directory in a website directory you have FTP access to.
 
-1. Copy the package files into that directory, including:
+1. [Download](https://github.com/BLESSOTERIC/rtsl/archive/main.zip) and copy the package files into that directory, including:
     * `/rtsl/` (directory)
     * `/rtsl/event-1/` (directory)
     * `/rtsl/event-1/index.html` (HTML doc with redirect script)
