@@ -12,11 +12,11 @@ This page and the package it is contained within is created to allow the use of 
 1. Create a directory on a website you have FTP access to.
 
 2. Copy the package files into that directory, including:
-  * `/rtsl/` (directory)
-  * `/rtsl/event-1/` (directory)
-  * `/rtsl/event-1/index.html` (HTML doc with redirect script)
-  * `/rtsl/event-1/img/` (directory)
-  * `/rtsl/event-1/img/cover.png` (social share image for your event)
+    * `/rtsl/` (directory)
+    * `/rtsl/event-1/` (directory)
+    * `/rtsl/event-1/index.html` (HTML doc with redirect script)
+    * `/rtsl/event-1/img/` (directory)
+    * `/rtsl/event-1/img/cover.png` (social share image for your event)
 
 3. Add `luxon.js` to the `/rtsl/` directory
 
@@ -27,26 +27,26 @@ This page and the package it is contained within is created to allow the use of 
 5. Replace `/rtls/event-1/img/cover.png` with your own event image that will appear when sharing the link on Facebook.
 
 6. Updtate the <head> section below with your event details:
-  * `meta description`
-  * `meta keywords`
-  * `meta og:title`
-  * `meta og:image` <--- only change if you are using a different file name and/or file type for the cover image
-  * `meta og:url`
-  * `title`
+    * `meta description`
+    * `meta keywords`
+    * `meta og:title`
+    * `meta og:image` <--- only change if you are using a different file name and/or file type for the cover image
+    * `meta og:url`
+    * `title`
 
 7. The script is where the magic happens: 
-  * It is set up to collect the users' browser time and convert all times to PST. If you want to use a different master time zone, please refer to the luxon.js documentation.
-  * Only change the code where explicitly told to do so by comments.
+    * It is set up to collect the users' browser time and convert all times to PST. If you want to use a different master time zone, please refer to the luxon.js documentation.
+    * Only change the code where explicitly told to do so by comments.
 
 ## Who made this?
 RTSL was created by Osiris Indriya to help us build a bigger and stronger community of support for Twitch DJs. If you value this work, please consider showing your support.
 
 ### Follow/Subscribe: 
-- Twitch: https://www.twitch.tv/osirisindriya
+* Twitch: https://www.twitch.tv/osirisindriya
 
 ### Donate:
-- PayPal: paypal.me/OsirisIndriya
-- Venmo: @Osiris-Indriya
+* PayPal: paypal.me/OsirisIndriya
+* Venmo: @Osiris-Indriya
 
 ### Participate:
-- Github: https://github.com/BLESSOTERIC/rtsl/
+* Github: https://github.com/BLESSOTERIC/rtsl/
