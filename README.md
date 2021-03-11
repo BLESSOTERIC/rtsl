@@ -1,16 +1,16 @@
-###Raid Train Single Link (aka RTSL)
+### Raid Train Single Link (aka RTSL)
 by Osiris Indriya
 
-##Why RTSL?
+## Why RTSL?
 Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
 
 
 
-##What is RTSL?
+## What is RTSL?
 This page and the package it is contained within is created to allow the use of a single URL to redirect on a schedule to follow the planned Raid Train, allowing anyone who clicks it to land on the current stream. This is perfect for promoting on Instagram, Facebook, EventBrite, etc. using a single URL.
 
 
-##How to set up RTSL?
+## How to set up RTSL?
 
 1. Create a directory on a website you have FTP access to.
 
@@ -41,15 +41,15 @@ This page and the package it is contained within is created to allow the use of 
 	- Only change the code where explicitly told to do so by comments.
 
 
-##Who made this?
+## Who made this?
 RTSL was created by Osiris Indriya to help us build a bigger and stronger community of support for Twitch DJs. If you value this work, please consider showing your support.
 
-#Follow/Subscribe: 
+# Follow/Subscribe: 
 	- https://www.twitch.tv/osirisindriya
 
-#Donate:
+# Donate:
 	- PayPal: paypal.me/OsirisIndriya
 	- Venmo: @Osiris-Indriya
 
-#Participate:
+# Participate:
 	- Github: https://github.com/BLESSOTERIC/rtsl/
