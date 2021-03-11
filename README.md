@@ -19,6 +19,7 @@ This page and the package it is contained within is created to allow the use of 
     * `/rtsl/event-1/img/cover.png` (social share image for your event)
 
 1. Add `luxon.js` to the `/rtsl/` directory.
+    * Get the latest `luxon.js` download at https://moment.github.io/luxon/docs/manual/install.html
 
 1. Modify the `/event-1/` directory name to be specific to your event. I recommend using a date and event name like this `2021-03-13-raid-train-name`.
 
