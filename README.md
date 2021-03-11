@@ -12,16 +12,16 @@ This package was is created to allow a single URL to redirect according to a pre
 1. Create a directory in a website directory you have FTP access to.
 
 1. [Download](https://github.com/BLESSOTERIC/rtsl/archive/v1.zip) and copy the package files into that directory, including:
-    * `/rtsl/` (directory)
-    * `/rtsl/event-1/` (directory)
-    * `/rtsl/event-1/index.html` (HTML doc with redirect script)
-    * `/rtsl/event-1/img/` (directory)
-    * `/rtsl/event-1/img/cover.png` (social share image for your event)
+    * `/rtsl-1/` (directory)
+    * `/rtsl-1/event-name/` (directory)
+    * `/rtsl-1/event-name/index.html` (HTML doc with redirect script)
+    * `/rtsl-1/event-name/img/` (directory)
+    * `/rtsl-1/event-name/img/cover.png` (social share image for your event)
 
 1. Add `luxon.js` to the `/rtsl/` directory.
     * Get the latest `luxon.js` download at https://moment.github.io/luxon/docs/manual/install.html
 
-1. Modify the `/event-1/` directory name to be specific to your event.
+1. Modify the `/event-name/` directory name to be specific to your event.
 
 1. Create a shortened link using your favorite shortener like Bit.ly and point it to your new raid train directory https://yourdomain.com/rtls/your-event-directory/, making sure to change the URL and directory to match what you set up previously for this event.
 
