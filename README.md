@@ -11,22 +11,22 @@ This page and the package it is contained within is created to allow the use of 
 
 1. Create a directory on a website you have FTP access to.
 
-2. Copy the package files into that directory, including:
+1. Copy the package files into that directory, including:
     * `/rtsl/` (directory)
     * `/rtsl/event-1/` (directory)
     * `/rtsl/event-1/index.html` (HTML doc with redirect script)
     * `/rtsl/event-1/img/` (directory)
     * `/rtsl/event-1/img/cover.png` (social share image for your event)
 
-3. Add `luxon.js` to the `/rtsl/` directory
+1. Add `luxon.js` to the `/rtsl/` directory.
 
-3. Modify the `/event-1/` directory name to be specific to your event. I recommend using a date and event name like this `2021-03-13-raid-train-name`.
+1. Modify the `/event-1/` directory name to be specific to your event. I recommend using a date and event name like this `2021-03-13-raid-train-name`.
 
-4. Create a shortened link using your favorite shortener like Bit.ly and point it to your new raid train directory https://yourdomain.com/rtls/your-event-directory/, making sure to change the URL and directory to match what you set up previously for this event.
+1. Create a shortened link using your favorite shortener like Bit.ly and point it to your new raid train directory https://yourdomain.com/rtls/your-event-directory/, making sure to change the URL and directory to match what you set up previously for this event.
 
-5. Replace `/rtls/event-1/img/cover.png` with your own event image that will appear when sharing the link on Facebook.
+1. Replace `/rtls/event-1/img/cover.png` with your own event image that will appear when sharing the link on Facebook.
 
-6. Updtate the <head> section below with your event details:
+1. Updtate the <head> section below with your event details:
     * `meta description`
     * `meta keywords`
     * `meta og:title`
@@ -34,7 +34,7 @@ This page and the package it is contained within is created to allow the use of 
     * `meta og:url`
     * `title`
 
-7. The script is where the magic happens: 
+1. The script is where the magic happens: 
     * It is set up to collect the users' browser time and convert all times to PST. If you want to use a different master time zone, please refer to the luxon.js documentation.
     * Only change the code where explicitly told to do so by comments.
 
