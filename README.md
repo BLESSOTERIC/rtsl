@@ -1,4 +1,4 @@
-### Raid Train Single Link (aka RTSL)
+# Raid Train Single Link (aka RTSL)
 by Osiris Indriya
 
 ## Why RTSL?
@@ -44,12 +44,12 @@ This page and the package it is contained within is created to allow the use of 
 ## Who made this?
 RTSL was created by Osiris Indriya to help us build a bigger and stronger community of support for Twitch DJs. If you value this work, please consider showing your support.
 
-# Follow/Subscribe: 
+### Follow/Subscribe: 
 	- https://www.twitch.tv/osirisindriya
 
-# Donate:
+### Donate:
 	- PayPal: paypal.me/OsirisIndriya
 	- Venmo: @Osiris-Indriya
 
-# Participate:
+### Participate:
 	- Github: https://github.com/BLESSOTERIC/rtsl/
