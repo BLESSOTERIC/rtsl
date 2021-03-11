@@ -11,7 +11,7 @@ This package was is created to allow a single URL to redirect according to a pre
 
 1. Create a directory in a website directory you have FTP access to.
 
-1. [Download](https://github.com/BLESSOTERIC/rtsl/archive/rtsl.zip) and copy the package files into that directory, including:
+1. [Download](https://github.com/BLESSOTERIC/rtsl/archive/v1.zip) and copy the package files into that directory, including:
     * `/rtsl/` (directory)
     * `/rtsl/event-1/` (directory)
     * `/rtsl/event-1/index.html` (HTML doc with redirect script)
