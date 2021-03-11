@@ -45,11 +45,11 @@ This page and the package it is contained within is created to allow the use of 
 RTSL was created by Osiris Indriya to help us build a bigger and stronger community of support for Twitch DJs. If you value this work, please consider showing your support.
 
 ### Follow/Subscribe: 
-	https://www.twitch.tv/osirisindriya
+- Twitch: https://www.twitch.tv/osirisindriya
 
 ### Donate:
 - PayPal: paypal.me/OsirisIndriya
 - Venmo: @Osiris-Indriya
 
 ### Participate:
-Github: https://github.com/BLESSOTERIC/rtsl/
+- Github: https://github.com/BLESSOTERIC/rtsl/
