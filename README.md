@@ -2,7 +2,7 @@
 by Osiris Indriya
 
 ## Why RTSL?
-Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
+One way to build community on Twitch.tv is for streamers to raid other channels, introducing their viewers to someone else's content and community. A popular way host events on Twitch.tv is to prearrange a sequence of shceduled streams and raids otherwise known as a "raid tain". Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
 
 ## What is RTSL?
 This page and the package it is contained within is created to allow the use of a single URL to redirect on a schedule to follow the planned Raid Train, allowing anyone who clicks it to land on the current stream. This is perfect for promoting on Instagram, Facebook, EventBrite, etc. using a single URL.
