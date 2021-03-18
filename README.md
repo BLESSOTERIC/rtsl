@@ -7,6 +7,11 @@ One way to build community on Twitch.tv is for streamers to raid other channels,
 ## What is RTSL?
 This package was is created to allow a single URL to redirect according to a predetermined schedule. This allows one link to land a user on the current active channel on a planned raid train. Once set up, this link can be shared widely inside and outside of Twitch.tv to direct people to a promotional page before the event begins, and to the raid train in progress. This single link is ideal for gathering new viewers who are not familiar with Twitch.
 
+## What do I need to get started?
+* An Internet-accessible domain
+* FTP access to publish HTML and image files at that domain
+* Some experience editing HTML and JavaScript
+
 ## How to set up RTSL?
 
 1. Create a directory in a website directory you have FTP access to.
