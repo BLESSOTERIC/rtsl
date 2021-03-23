@@ -1,5 +1,5 @@
 # Raid Train Single Link (aka RTSL)
-by Osiris Indriya
+by Osiris Indriya (https://www.twitch.tv/osirisindriya)
 
 ## Why RTSL?
 One way to build community on Twitch.tv is for streamers to raid other channels, introducing their viewers to someone else's content and community. A popular way host events on Twitch.tv is to prearrange a sequence of scheduled streams and raids otherwise known as a "raid tain". Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
