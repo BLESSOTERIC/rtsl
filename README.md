@@ -2,7 +2,7 @@
 by Osiris Indriya (https://www.twitch.tv/osirisindriya)
 
 ## Why RTSL?
-One way to build community on Twitch.tv is for streamers to raid other channels, introducing their viewers to someone else's content and community. A popular way host events on Twitch.tv is to prearrange a sequence of scheduled streams and raids otherwise known as a "Raid Rain". Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
+One way to build community on Twitch.tv is for streamers to raid other channels, introducing their viewers to someone else's content and community. A popular way host events on Twitch.tv is to prearrange a sequence of scheduled streams and raids otherwise known as a "Raid Train". Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
 
 ## What is RTSL?
 This package was is created to allow a single URL to redirect according to a predetermined schedule. This allows one link to land a user on the current active channel on a planned raid train. Once set up, this link can be shared widely inside and outside of Twitch.tv to direct people to a promotional page before the event begins, and to the raid train in progress. This single link is ideal for gathering new viewers who are not familiar with Twitch.
