@@ -1,14 +1,14 @@
-<!-- 2021-03-13 Relax and Reset -->
+<!-- 2021-04-11 Holotropic Family Hour -->
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Sit back and unwind, as we drift along on a raid train through the ebb and flow of ambient music.">
-  <meta name="keywords" content="Twitch, ambient, electronic, music, mediation, streaming">
-  <meta property="og:title" content="Relax & Reset ~ Ambient Music Event on Twitch.tv">
-  <meta property="og:description" content="Sit back and unwind, as we drift along on a raid train through the ebb and flow of ambient music.">
+  <meta name="description" content="A full day of original electronic music and chillout DJs inspred by the HHH community on Twitch.tv.">
+  <meta name="keywords" content="Twitch, ambient, chillout, live, electronic, music, streaming, synthesizers">
+  <meta property="og:title" content="Holotropic Family Hour ~ April 11, 2021 on Twitch.tv">
+  <meta property="og:description" content="A full day of original electronic music and chillout DJs inspred by the HHH community on Twitch.tv.">
   <meta property="og:image" content="img/cover.png">
   <meta property="og:url" content="http://bit.ly/RNRambient">
-  <title>Relax & Reset ~ Ambient Music Event on Twitch.tv</title>
+  <title>Holotropic Family Hour ~ April 11, 2021 on Twitch.tv</title>
 </head>
 
 <script src='../luxon.js'></script>
@@ -22,39 +22,75 @@
 
 	// convert browser time to PST
 	var rezoned = local.setZone('America/Los_Angeles');
-
-	// twitch domain
+	
+	// Default URL to show before and after event
+	var URL = 'https://www.facebook.com/events/134210711962006/';
+	
+	// twitch domain * do not change *
 	var twitchURL = 'https://www.twitch.tv/';
 	
-	// FB Event as Default
-	var URL = 'https://www.eventbrite.com/e/relax-reset-tickets-143505690383';
+	/*
+	SCHEDULE:
+	11am EDT / 8am PDT - BlipHOPjunkie
+	12pm EDT / 9am PDT - Closed Loop
+	1pm EDT / 10am PDT - Sherpa Slim
+	2pm EDT / 11am PDT - Chando 
+	3pm EDT / 12pm PDT - Beta Units
+	4pm EDT / 1pm PDT - Nigel Mullaney
+	5pm EDT / 2pm PDT - Polygon Rainbow
+	6pm EDT / 3pm PDT - May Vary (Pleasure Corp) 
+	7pm EDT / 4pm PDT - Nautick 
+	8pm EDT / 5pm PDT - Osiris Indriya 
+	9pm EDT / 6pm PDT - KiloWatts 
+	10pm EDT / 7pm PDT - Bluetech
+	11pm EDT / 7pm PDT - DJ Maggie
+	12am EDT / 9pm PDT - END
+	*/
 	
-	// Event Schedule
+	
 	var schedule =  [
 		
-		// 0 - Andrew Fetch, 9-11
-		['andrewfetch', DateTime.fromISO('2021-03-13T09:00:00.000-08:00')],
-	
-		// 1 - DJ Montalbano, 11-13
-		['djmontalbano', DateTime.fromISO('2021-03-13T11:00:00.000-08:00')],
-	
-		// 2 - Sherpa Slim, 13-15
-		['sherpaslim', DateTime.fromISO('2021-03-13T13:00:00.000-08:00')],
+		// 0) 8am, BlipHOPjunkie
+		['bliphopjunkie', DateTime.fromISO('2021-04-11T08:00:00.000-07:00')],
 		
-		// 3 - DJ Maggie, 15-17
-		['djmaggiemoon', DateTime.fromISO('2021-03-13T15:00:00.000-08:00')],
+		// 1) 9am, Closed Loop
+		['closedloopmusic', DateTime.fromISO('2021-04-11T09:00:00.000-07:00')],
+		
+		// 2) 10am, SherpaSlim
+		['sherpaslim', DateTime.fromISO('2021-04-11T10:00:00.000-07:00')],
+		
+		// 3) 11am, Chando
+		['chandomusic', DateTime.fromISO('2021-04-11T11:00:00.000-07:00')],
+		
+		// 4) 12pm, Beta Units
+		['betaunits', DateTime.fromISO('2021-04-11T12:00:00.000-07:00')],
+		
+		// 5) 1pm, Nigel Mullaney
+		['polygonrainbow', DateTime.fromISO('2021-04-11T13:00:00.000-07:00')],
+		
+		// 6) 2pm, Polygon Rainbow
+		['polygonrainbow', DateTime.fromISO('2021-04-11T14:00:00.000-07:00')],
+		
+		// 7) 3pm, May Vary (Pleasure Corp)
+		['pleasurecorporation', DateTime.fromISO('2021-04-11T15:00:00.000-07:00')],
+		
+		// 8) 4pm, Nautick
+		['nautickofficial', DateTime.fromISO('2021-04-11T16:00:00.000-07:00')],
+		
+		// 9) 5pm, Osiris Indriya
+		['osirisindriya', DateTime.fromISO('2021-04-11T17:00:00.000-07:00')],
+		
+		// 10) 6pm, KiloWatts
+		['kilowatts', DateTime.fromISO('2021-04-11T18:00:00.000-07:00')],
+		
+		// 11) 7pm, Bluetech
+		['bluetechofficial', DateTime.fromISO('2021-04-11T19:00:00.000-07:00')],
 
-		// 4 - Mamadre, 17-19
-		['mamadre69', DateTime.fromISO('2021-03-13T17:00:00.000-08:00')],
+		// 12) 8pm, DJ Maggie
+		['djmaggiemoon', DateTime.fromISO('2021-04-11T20:00:00.000-07:00')],
 		
-		// 5 - Osiris Indriya & Chiyona Indriya, 19-23
-		['osirisindriya', DateTime.fromISO('2021-03-13T19:00:00.000-08:00')],
-		
-		// 6 - DJ Leslie Ellen, 23-1
-		['virtualnightclub', DateTime.fromISO('2021-03-13T23:00:00.000-08:00')],
-
-		// End, 1
-		['end', DateTime.fromISO('2021-03-14T01:00:00.000-08:00')]
+		// 13) 9pm, EVENT ENDS - send people back to the default link
+		['end', DateTime.fromISO('2021-04-11T21:00:00.000-07:00')]
 
 	]
 
