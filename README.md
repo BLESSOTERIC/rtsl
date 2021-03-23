@@ -56,3 +56,8 @@ RTSL was created by Osiris Indriya to help us build a bigger and stronger commun
 
 ### Participate:
 * Github: https://github.com/BLESSOTERIC/rtsl/
+
+## Credits
+
+### cover.png Designer
+Polygon Rainbow (www.flow.page/polygonrainbow)
