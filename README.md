@@ -2,10 +2,10 @@
 by Osiris Indriya (https://www.twitch.tv/osirisindriya)
 
 ## Why RTSL?
-One way to build community on Twitch.tv is for streamers to raid other channels, introducing their viewers to someone else's content and community. A popular way host events on Twitch.tv is to prearrange a sequence of scheduled streams and raids otherwise known as a "Raid Train". Raid trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a raid train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
+One way to build community on Twitch.tv is for streamers to raid other channels, introducing their viewers to someone else's content and community. A popular way host events on Twitch.tv is to prearrange a sequence of scheduled streams and raids otherwise known as a "Raid Train". Raid Trains are the best way to spready the love around, giving every streamer's channel an opportunity to get viewers and direct support. The problem is that it can be hard to track a Raid Train in progress as the train moves from channel to channel, especially for people less familiar with Twitch.
 
 ## What is RTSL?
-This package was is created to allow a single URL to redirect according to a predetermined schedule. This allows one link to land a user on the current active channel on a planned raid train. Once set up, this link can be shared widely inside and outside of Twitch.tv to direct people to a promotional page before the event begins, and to the raid train in progress. This single link is ideal for gathering new viewers who are not familiar with Twitch.
+This package was is created to allow a single URL to redirect according to a predetermined schedule. This allows one link to land a user on the current active channel on a planned Raid Train. Once set up, this link can be shared widely inside and outside of Twitch.tv to direct people to a promotional page before the event begins, and to the Raid Train in progress. This single link is ideal for gathering new viewers who are not familiar with Twitch.
 
 ## What do I need to get started?
 * An Internet-accessible domain
@@ -28,7 +28,7 @@ This package was is created to allow a single URL to redirect according to a pre
 
 1. Modify the `/event-name/` directory name to be specific to your event.
 
-1. Create a shortened link using your favorite shortener like Bit.ly and point it to your new raid train directory https://yourdomain.com/rtls/your-event-directory/, making sure to change the URL and directory to match what you set up previously for this event.
+1. Create a shortened link using your favorite shortener like Bit.ly and point it to your new Raid Train directory https://yourdomain.com/rtls/your-event-directory/, making sure to change the URL and directory to match what you set up previously for this event.
 
 1. Replace `/rtls/event-1/img/cover.png` with your own event image that will appear when sharing the link on Facebook.
 
